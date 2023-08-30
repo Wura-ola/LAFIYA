@@ -1,0 +1,19 @@
+nav {
+  //   max-width: 1500px;
+  background-color: #172048;
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+  ul {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    li {
+      text-decoration: none;
+      a {
+        list-style: none;
+        color: #fff;
+      }
+    }
+  }
+}
