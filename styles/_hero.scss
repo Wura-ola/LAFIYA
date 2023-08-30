@@ -35,13 +35,14 @@
 @media screen and (max-width: 768px) {
   .hero_section {
     display: block;
+    padding-bottom: 2rem;
     img {
       display: flex;
       justify-content: center;
       margin: 0 auto;
     }
     h3 {
-      // font-size: 20px;
+      font-size: 30px;
       text-align: center;
     }
   }
@@ -60,7 +61,6 @@
         font-size: 20px;
       }
       .btn {
-        padding: ;
         font-size: 10px;
       }
       .btnn {
