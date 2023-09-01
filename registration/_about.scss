@@ -1,0 +1,82 @@
+.about {
+  max-width: 900px;
+  margin: 0 auto;
+  h1 {
+    margin: 2rem 0px;
+    text-align: center;
+  }
+  .plan {
+    border-radius: 5px;
+    padding: 2rem 2rem;
+    background-color: #172048;
+    color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 3rem;
+    div {
+      text-align: center;
+    }
+    h1 {
+      margin: 0px;
+    }
+    button {
+      border: 1px solid #172048;
+      padding: 13px 2rem;
+      background-color: #ffffff;
+      color: #172048;
+      border-radius: 15px;
+    }
+  }
+  form {
+    input {
+      background-color: #ffffff;
+      border: none;
+      outline: none;
+      border-radius: 7px;
+      //   width: 100%;
+      //   height: 7vh;
+      padding: 13px 10px;
+    }
+    label {
+      margin-bottom: 1rem;
+    }
+    color: #172048;
+    .names {
+      width: 900px;
+      display: flex;
+      gap: 2rem;
+      margin-bottom: 2rem;
+      div {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        // display: block;
+      }
+    }
+    .caps {
+      width: 900px;
+      gap: 2rem;
+      display: flex;
+      margin-bottom: 2rem;
+      div {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        // display: block;
+      }
+    }
+    .emails {
+      width: 900px;
+      gap: 2rem;
+      display: flex;
+      margin-bottom: 2rem;
+      div {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        // display: block;
+      }
+    }
+  }
+}

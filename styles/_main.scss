@@ -142,3 +142,20 @@
     }
   }
 }
+.section_4 {
+  margin-top: 4rem;
+  padding: 1rem 5rem;
+  h3 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+  .img {
+    display: flex;
+    align-items: center;
+    gap: 5rem;
+    img {
+      width: 20%;
+    }
+  }
+}

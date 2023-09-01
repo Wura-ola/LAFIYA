@@ -1,0 +1,236 @@
+.head {
+  padding: 4rem;
+  max-width: 900px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.head h1 {
+  color: #172048;
+}
+.head p {
+  color: #172048;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  font-size: 13px;
+}
+
+nav {
+  padding: 1rem 5rem;
+  justify-content: space-between;
+  background-color: #172048;
+  display: flex;
+  align-items: center;
+}
+nav .hh {
+  display: none;
+}
+nav img {
+  width: 10%;
+}
+nav ul {
+  display: flex;
+  align-items: center;
+  gap: 2.5rem;
+  text-decoration: none;
+}
+nav ul li {
+  text-decoration: none;
+  list-style: none;
+}
+nav ul li a {
+  text-decoration: none;
+  color: #fff;
+}
+nav button {
+  outline: none;
+  border: none;
+  padding: 12px 2.5rem;
+  border-radius: 15px;
+  background-color: #f4feff;
+  color: #172048;
+}
+nav .toggle_bar {
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+  nav {
+    padding: 7px 5px;
+  }
+  nav .hh {
+    display: block;
+  }
+  nav .hhh {
+    display: none;
+  }
+  nav ul {
+    display: none;
+  }
+  nav button {
+    margin-bottom: 2rem;
+    padding: 9px 3.5rem;
+  }
+  nav ul {
+    padding-top: 5rem;
+    margin-bottom: -50%;
+    width: 100%;
+    height: 70vh;
+    padding-left: 9rem;
+    -webkit-backdrop-filter: blur(101.2666589355px);
+            backdrop-filter: blur(101.2666589355px);
+    justify-content: center;
+    gap: 3rem;
+  }
+  nav ul li {
+    margin-bottom: 1.5rem;
+  }
+  nav ul li a {
+    padding: 4rem;
+    margin-bottom: 1rem;
+  }
+  nav img {
+    width: 20%;
+  }
+  nav .toggle_bar {
+    display: block;
+  }
+  nav .toggle_bar div {
+    margin-bottom: 5px;
+    width: 35px;
+    height: 3px;
+    background-color: #fff;
+  }
+}
+.show {
+  display: block;
+}
+
+footer {
+  padding: 3rem 5rem;
+  background-color: #172048;
+  display: flex;
+  justify-content: space-between;
+  color: #ffffff;
+}
+footer .foot {
+  font-size: 12px;
+  gap: 3rem;
+  display: flex;
+}
+footer .foot div {
+  margin-bottom: 1rem;
+}
+footer .foot h3 {
+  margin-bottom: 1rem;
+}
+footer .foot .touch div {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+}
+footer .foot .touch div img {
+  width: 5%;
+}
+
+.about {
+  max-width: 900px;
+  margin: 0 auto;
+}
+.about h1 {
+  margin: 2rem 0px;
+  text-align: center;
+}
+.about .plan {
+  border-radius: 5px;
+  padding: 2rem 2rem;
+  background-color: #172048;
+  color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 3rem;
+}
+.about .plan div {
+  text-align: center;
+}
+.about .plan h1 {
+  margin: 0px;
+}
+.about .plan button {
+  border: 1px solid #172048;
+  padding: 13px 2rem;
+  background-color: #ffffff;
+  color: #172048;
+  border-radius: 15px;
+}
+.about form {
+  color: #172048;
+}
+.about form input {
+  background-color: #ffffff;
+  border: none;
+  outline: none;
+  border-radius: 7px;
+  padding: 13px 10px;
+}
+.about form label {
+  margin-bottom: 1rem;
+}
+.about form .names {
+  width: 900px;
+  display: flex;
+  gap: 2rem;
+  margin-bottom: 2rem;
+}
+.about form .names div {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+.about form .caps {
+  width: 900px;
+  gap: 2rem;
+  display: flex;
+  margin-bottom: 2rem;
+}
+.about form .caps div {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+.about form .emails {
+  width: 900px;
+  gap: 2rem;
+  display: flex;
+  margin-bottom: 2rem;
+}
+.about form .emails div {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+
+body {
+  background-color: #efefef;
+}
+
+.container {
+  font-family: "Quicksand", sans-serif;
+  max-width: 1440px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+.container button {
+  cursor: pointer;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}/*# sourceMappingURL=reg.css.map */
